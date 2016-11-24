@@ -1,8 +1,8 @@
 <?php
 $servername = "sql6.freemysqlhosting.net";
-$username = "sql6144721";
-$password = "tfu7NEeYxp";
-$database = "sql6144721";
+$username = "sql6146068";
+$password = "ubrLtzGvpf";
+$database = "sql6146068";
 
 
 
@@ -10,9 +10,9 @@ $database = "sql6144721";
 $conn = new mysqli($servername, $username, $password, $database);
 function koneksi(){
  $servername = "sql6.freemysqlhosting.net";
-$username = "sql6144721";
-$password = "tfu7NEeYxp";
-$database = "sql6144721";
+$username = "sql6146068";
+$password = "ubrLtzGvpf";
+$database = "sql6146068";
 
   return $conn = new mysqli($servername, $username, $password, $database);
 }
